@@ -1,0 +1,36 @@
+.wh-layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  // background: url(./bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wh-layout > .wh-layout-background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  // z-index: -1;
+}
+
+.wh-layout > .wh-layout-title-bar {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+}
+
+.wh-layout > .wh-layout-main-content {
+  width: 100vw;
+
+  box-sizing: border-box;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.wh-layout > .wh-layout-main-content .wh-layout-main-content-placeholder {
+}

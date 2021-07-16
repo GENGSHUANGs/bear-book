@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "工位33二维码拉起",
+          "pathName": "pages/index",
+          "query": "q=https%3A%2F%2Fweapp.ikebao.pro%2Fpull%2Foutlet%2Fcall%3Fsid%3D33&scancode_time=1625550744",
+          "scene": 1007
+        },
+        {
+          "name": "ShareCode拉起",
+          "pathName": "pages/index",
+          "query": "q=https%3A%2F%2Fweapp.ikebao.pro%2Fpull%2Foutlet%2Fcall%3FshareCode%3D0z0y16",
+          "scene": 1008
+        },
+        {
+          "name": "合作路店分享",
+          "pathName": "pages/index",
+          "query": "q=https%3A%2F%2Fweapp.ikebao.pro%2Fpull%2Foutlet%2Fcall%3FshopId%3D20",
+          "scene": 1007
+        }
+      ]
+    }
+  }
+}
